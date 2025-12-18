@@ -33,7 +33,7 @@ El proyecto consta de los siguientes archivos y carpetas:
 
 ### Carpetas
 - `src/`: Código fuente auxiliar.
-    - `EmotionModelTraining.ipynb`: Notebook para el entrenamiento del modelo.
+    - `EmotionModelTraining.ipynb`: Notebook para el entrenamiento del modelo. Usamos el dataset [FERplus](https://www.kaggle.com/datasets/arnabkumarroy02/ferplus) y una CNN con arquitectura propia y simple.
     - `model.py`: Definición de la arquitectura del modelo (`MyModel`).
     - `dataset.py`: Gestión del dataset.
     - `utils.py`: Funciones de utilidad.
