@@ -23,10 +23,25 @@ El sistema permite:
     ```
 
 ## Estructura de Directorios
-Asegúrate de que existan las siguientes carpetas antes de ejecutar:
-- `data/identidades`: Carpeta donde el sistema guarda automáticamente las caras nuevas detectadas.
-- `data/input`: Coloca aquí las imágenes nuevas para procesar en lote (formato: `Nombre.jpg`).
-- `models/`: Debe contener el archivo del modelo entrenado `model.pth`.
+El proyecto consta de los siguientes archivos y carpetas:
+
+### Raíz
+- `EmotionRecord.ipynb`: Notebook principal para la ejecución del sistema.
+- `requirements.txt`: Lista de dependencias del proyecto.
+- `LICENSE`: Licencia del software.
+- `resultados.csv`: Archivo generado con el historial de detecciones.
+
+### Carpetas
+- `src/`: Código fuente auxiliar.
+    - `EmotionModelTraining.ipynb`: Notebook para el entrenamiento del modelo.
+    - `model.py`: Definición de la arquitectura del modelo (`MyModel`).
+    - `dataset.py`: Gestión del dataset.
+    - `utils.py`: Funciones de utilidad.
+- `models/`: 
+    - `model.pth`: Archivo del modelo entrenado.
+- `data/`:
+    - `identidades/`: Carpeta donde se guardan las caras nuevas detectadas.
+    - `input/`: Carpeta para colocar las imágenes nuevas para procesar en lote (formato: `Nombre.jpg`).
 
 ## Uso
 
