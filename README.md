@@ -1,4 +1,4 @@
-# Sistema de procesado de datos en Tiempo Real y en Lote centrado en el Reconocimiento Facial y Análisis de Emociones
+# Sistema de procesado de datos en Tiempo Real y en Lote centrado en la Detección de Identidad y Análisis de Emociones
 
 ## Descripción
 Este proyecto implementa un sistema de visión por computadora capaz de identificar personas y detectar sus emociones (Enfado, Felicidad, Neutral, Tristeza) en imágenes o video en tiempo real. Utiliza [PyTorch](https://pytorch.org/) para el modelo de clasificación de emociones y la librería [face_recognition](https://github.com/ageitgey/face_recognition) para la identificación facial.
