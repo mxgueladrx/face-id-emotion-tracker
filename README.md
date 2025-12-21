@@ -73,3 +73,8 @@ El archivo `resultados.csv` contendrá:
 - **Nombre**: Identidad detectada.
 - **Fecha**: Timestamp de la detección.
 - **Emoción**: Emoción clasificada.
+
+## Planes a futuro
+- Añadir más emociones para obtener un sistema mucho más flexible.
+- Migrar a una base de datos SQL puesto que ahora almacenamos todo en carpetas y archivos `.csv`.
+- Optimizar el modelo, hacerlo más eficiente y obtener mejores métricas de evaluación.
